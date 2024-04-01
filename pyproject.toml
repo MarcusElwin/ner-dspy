@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ner-dspy"
+version = "0.1.0"
+description = "NER using DSPy and LLMs"
+authors = ["Marcus Elwin"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dspy-ai = "^2.4.0"
+jupyter = "^1.0.0"
+jupytext = "^1.16.1"
+pydantic = "2.5.0"
+python-dotenv = "^1.0.1"
+nest-asyncio = "^1.6.0"
+devtools = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

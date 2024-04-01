@@ -29,6 +29,7 @@ The output of running the program is a list of `FoodEntities`:
 ```
 
 ## Setup ⚙️
+0. Copy `.env.example` and add any env variables needed e.g. `OPENAI_API_KEY`
 1. Make sure to install `poetry` on your system see e.g. instructions [here](https://python-poetry.org/docs/#installation)
 2. Install requirements 
    ```sh
